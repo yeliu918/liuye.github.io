@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ye Liu"
 title_separator          : "-"
 name                     : &name "Ye Liu"
-description              : &description "Ye Liu Home Page. "
+description              : &description "Ye Liu's Home Page. "
 url                      : https://yeliu918.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yeliu918/yeliu918.github.io"
@@ -210,14 +210,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+ # - scope:
+  #    path: ""
+   #   type: teaching
+   # values:
+    #  layout: single
+    #  author_profile: true
+     # share: true
+     # comments: true
   # _publications
   - scope:
       path: ""
